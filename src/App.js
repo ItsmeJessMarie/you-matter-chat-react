@@ -1,13 +1,27 @@
 import react from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/index";
+import About from "./pages/about";
+import Crisis from "./pages/volunteer/crisis";
+import Fundraising from "./pages/volunteer/fundraising";
+import Social from "./pages/volunteer/social";
+import Contact from "./pages/contact";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path="/index" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/volunteer/crisis" element={<Crisis />} />
+        <Route path="/volunteer/fundraising" element={<Fundraising />} />
+        <Route path="/volunteer/social" element={<Social />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
