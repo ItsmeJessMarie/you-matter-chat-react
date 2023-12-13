@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../images/you-matter-logo.png";
 import "./navbar.css";
 
 function Navbar() {
+  const [activeLink, setActiveLink] = useState(0);
   return (
     <>
       <nav className="navbar navbar-expand-lg fixed-top">
@@ -30,7 +31,7 @@ function Navbar() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a
-                  className="nav-link active"
+                  className="nav-link"
                   aria-current="page"
                   href="index.html"
                   title="Homepage"

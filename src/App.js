@@ -1,5 +1,6 @@
-import react from "react";
+import React from "react";
 import Navbar from "./components/Navbar.js";
+import Footer from "./components/Footer.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/index";
 import About from "./pages/about";
@@ -21,6 +22,7 @@ function App() {
         <Route path="/volunteer/social" element={<Social />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

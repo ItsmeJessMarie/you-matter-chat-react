@@ -118,8 +118,14 @@ a:link {
 .first-container,
 .second-container,
 .third-container,
-.fourth-container {
+.fourth-container,
+.footer-container {
   margin: 30px 0;
+}
+
+.footer-container {
+  background: var(--secondary-color);
+  padding: 20px 40px;
 }
 
 .image {
@@ -141,9 +147,13 @@ a:link {
   padding: 20px;
 }
 
+.mailing-form {
+  text-align: center;
+}
+
 .email-form {
   margin: 0 auto;
-  width: 60%;
+  width: 30%;
 }
 
 .submit-btn {
@@ -161,10 +171,12 @@ a:link {
 .enter-email.focus,
 .enter-email:focus,
 .enter-email:active {
+  border-radius: 30px;
   display: block;
   font-size: 14px;
   margin: 8px auto;
   padding: 10px;
+  text-align: center;
 }
 
 .text-box:focus {
@@ -177,6 +189,7 @@ a:link {
 
 .btn-primary {
   background: var(--branding-color);
+  border-radius: 30px;
   border-style: none;
   color: var(--secondary-color);
   display: block;
@@ -303,7 +316,7 @@ a:link {
   }
 
   .email-form {
-    width: 80%;
+    width: 50%;
   }
 
   .submit-btn,
@@ -361,10 +374,6 @@ a:link {
     margin: 0 auto;
   }
 
-  .email-form {
-    width: 70%;
-  }
-
   .contact-us {
     margin: 0 auto;
   }
@@ -385,10 +394,6 @@ a:link {
 
   .btn {
     font-size: 14px;
-  }
-
-  .text-box {
-    text-align: center;
   }
 }
 
@@ -416,6 +421,10 @@ a:link {
 
   .navbar {
     padding: 10px 20px 10px 0;
+  }
+
+  .footer-container {
+    padding: 20px;
   }
 
   .email-form {
@@ -461,5 +470,9 @@ a:link {
   .nav-item,
   .dropdown-item {
     font-size: 12px;
+  }
+
+  .email-form {
+    width: 100%;
   }
 }
