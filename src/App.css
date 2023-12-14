@@ -103,8 +103,8 @@ a:link {
 
 .submit-btn {
   margin: 0 auto;
-  padding: 12px 0;
-  width: 40%;
+  padding: 12px 5px;
+  width: 125px;
 }
 
 .contact-warning {
@@ -138,7 +138,7 @@ a:link {
   border-style: none;
   color: var(--secondary-color);
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   transition: all 100ms ease-in-out;
 }
@@ -201,13 +201,14 @@ a:link {
 }
 
 .contact-us {
+  margin: 10px auto;
   text-align: center;
+  width: 550px;
 }
 
-.contact-us,
 .contact-us-form {
   margin: 0 auto;
-  width: 50%;
+  width: 550px;
 }
 
 /* Breakpoints */
@@ -249,10 +250,6 @@ a:link {
 
   p {
     font-size: 16px;
-  }
-
-  .btn {
-    font-size: 14px;
   }
 
   .contact-us,
@@ -307,7 +304,7 @@ a:link {
   }
 
   .contact-us {
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   .contact-us-form {
@@ -353,10 +350,6 @@ a:link {
 
   .email-form {
     width: 100%;
-  }
-
-  .submit-btn {
-    width: 100px;
   }
 
   .copyright {

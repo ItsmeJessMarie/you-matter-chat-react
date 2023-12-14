@@ -10,7 +10,7 @@ function Subscribe() {
           <div className="email-form">
             <input
               type="email"
-              placeholder="Enter your email"
+              placeHolder="Enter your email"
               autoComplete="off"
               id="email-input"
               className="form-control enter-email shadow-sm text-box"
@@ -18,7 +18,7 @@ function Subscribe() {
             />
             <input
               type="submit"
-              value="Submit"
+              value="Subscribe"
               id="submit-email"
               className="form-control btn submit-btn btn-primary message-btn shadow-sm"
               title="Submit email button"

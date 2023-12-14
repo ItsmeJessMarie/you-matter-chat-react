@@ -7,7 +7,7 @@ import "../App.css";
 
 function Home() {
   return (
-    <div>
+    <>
       <div className="first-container">
         <div className="row">
           <div className="col-lg-6">
@@ -75,7 +75,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

@@ -3,9 +3,14 @@ import "../App.css";
 
 function About() {
   return (
-    <div>
-      <h1>Hello About!</h1>
-    </div>
+    <>
+      <div className="first-container">
+        <h1>About us</h1>
+      </div>
+      <div className="second-container">
+        <h1>Coming soon...</h1>
+      </div>
+    </>
   );
 }
 
