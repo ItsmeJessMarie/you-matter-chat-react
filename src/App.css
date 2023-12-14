@@ -71,7 +71,7 @@ a:link {
 }
 
 .footer-container {
-  margin: 15px auto;
+  margin: 30px 0 10px 0;
 }
 
 .image {
@@ -80,17 +80,16 @@ a:link {
   width: 100%;
 }
 
-.fourth-container .homepage-link {
+.footer-container .homepage-link {
   color: var(--branding-color);
 }
 
-.fourth-container .homepage-link:hover {
+.footer-container .homepage-link:hover {
   color: var(--hover-color);
 }
 
 .donate-email-container {
   margin: 0 auto;
-  padding: 10px 20px;
 }
 
 .mailing-form {
@@ -99,12 +98,12 @@ a:link {
 
 .email-form {
   margin: 0 auto;
-  width: 350px;
+  width: 325px;
 }
 
 .submit-btn {
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 12px 0;
   width: 40%;
 }
 
@@ -150,11 +149,9 @@ a:link {
 }
 
 .donation-btn,
-.chat-btn,
 .apply-btn {
   display: inline;
-  margin: 2px auto;
-  padding: 12px 40px;
+  padding: 12px 25px;
 }
 
 .btn-primary:hover {
@@ -169,7 +166,7 @@ a:link {
 .fa-brands {
   color: var(--branding-color);
   font-size: 22px;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .fa-brands:hover {
@@ -179,7 +176,7 @@ a:link {
 .fa-paypal {
   color: var(--secondary-color);
   font-size: 18px;
-  padding: 0 2px;
+  padding: 0 4px;
 }
 
 .fa-paypal:hover {
@@ -280,18 +277,23 @@ a:link {
   .content-container {
     padding: 10px 40px;
     text-align: center;
-    width: 80%;
+    width: 100%;
   }
 
   .first-container,
   .second-container,
   .third-container,
-  .fourth-container {
+  .fourth-container,
+  .footer-container {
     margin: 20px 0 0 0;
   }
 
   .donate-email-container {
-    padding: 0 40px;
+    padding: 0 30px;
+  }
+
+  .mailing-form {
+    padding: 20px 0;
   }
 
   .volunteer-requirements,
@@ -318,9 +320,15 @@ a:link {
   }
 }
 
+@media (max-width: 768px) {
+  .email-form {
+    width: 300px;
+  }
+}
+
 @media (max-width: 576px) {
   .donate-email-container {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   .warning {
@@ -333,7 +341,6 @@ a:link {
 
   .content-container {
     padding: 10px 20px;
-    width: 100%;
   }
 
   .logo-header {
@@ -345,7 +352,11 @@ a:link {
   }
 
   .email-form {
-    width: 260px;
+    width: 100%;
+  }
+
+  .submit-btn {
+    width: 100px;
   }
 
   .copyright {

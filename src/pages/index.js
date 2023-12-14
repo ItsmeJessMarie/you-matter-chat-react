@@ -64,12 +64,6 @@ function Home() {
               Anyone can use our online chat service to talk to a trained,
               certified crisis responder.
             </h3>
-            <button
-              className="btn btn-primary chat-btn"
-              title="Chat now button"
-            >
-              *Chat Now
-            </button>
           </div>
           <div className="col-lg-4">
             <img
@@ -80,29 +74,6 @@ function Home() {
             />
           </div>
         </div>
-      </div>
-      <div className="fourth-container donate-email-container text-center">
-        <p className="mb-2">
-          <a className="homepage-link" href="index.html">
-            YouMatter
-          </a>{" "}
-          is an international non-profit, registered and regulated in New
-          Jersey, USA.
-        </p>
-        <a
-          href="https://www.powr.io/checkout_screen?unique_label=f036cad8_1696581325"
-          target="_blank"
-          className="donation-link"
-        >
-          <button
-            className="btn btn-primary donation-btn"
-            title="Donation button"
-          >
-            <i className="fa-brands fa-paypal"></i>
-            Donate
-          </button>
-        </a>
-        <p className="credit-cards">All major forms of payment accepted</p>
       </div>
     </div>
   );
