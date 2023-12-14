@@ -66,14 +66,12 @@ a:link {
 .first-container,
 .second-container,
 .third-container,
-.fourth-container,
-.footer-container {
+.fourth-container {
   margin: 30px 0;
 }
 
 .footer-container {
-  background: var(--secondary-color);
-  padding: 20px 40px;
+  margin: 15px auto;
 }
 
 .image {
@@ -91,8 +89,8 @@ a:link {
 }
 
 .donate-email-container {
-  margin: 0;
-  padding: 20px;
+  margin: 0 auto;
+  padding: 10px 20px;
 }
 
 .mailing-form {
@@ -156,19 +154,12 @@ a:link {
 .apply-btn {
   display: inline;
   margin: 2px auto;
-  padding: 10px 60px;
+  padding: 12px 40px;
 }
 
 .btn-primary:hover {
   background: var(--hover-color);
   color: black;
-}
-
-.social-media {
-  color: var(--branding-color);
-  font-size: 18px;
-  margin: 20px 0 10px 0;
-  text-align: center;
 }
 
 .social-media-icons {
@@ -178,7 +169,7 @@ a:link {
 .fa-brands {
   color: var(--branding-color);
   font-size: 22px;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .fa-brands:hover {
@@ -303,10 +294,6 @@ a:link {
     padding: 0 40px;
   }
 
-  .donate-email-container .col-lg-6 {
-    margin: 20px 0;
-  }
-
   .volunteer-requirements,
   .fundraising-information,
   .contact-us-information {
@@ -357,16 +344,8 @@ a:link {
     padding: 10px 20px 10px 0;
   }
 
-  .footer-container {
-    padding: 20px;
-  }
-
   .email-form {
     width: 260px;
-  }
-
-  .social-media {
-    font-size: 16px;
   }
 
   .copyright {

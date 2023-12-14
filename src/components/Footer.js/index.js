@@ -6,10 +6,10 @@ function Footer() {
   return (
     <>
       <div>
-        <div className="footer-container mt-5">
+        <div className="footer-container">
+          <hr />
           <Subscribe />
-          <p className="social-media">Visit us on our social media platforms</p>
-          <div className="social-media-icons">
+          <div className="social-media-icons mt-4">
             <span>
               <a href="">
                 <i className="fa-brands fa-facebook" title="Facebook"></i>
@@ -25,8 +25,7 @@ function Footer() {
               </a>
             </span>
           </div>
-          <hr />
-          <p className="copyright">
+          <p className="copyright mt-3">
             © 2023 by YouMatter. YouMatter is an internet platform used by
             people to access on-demand emotional support. We are not a clinical
             service and do not provide medical assistance.
