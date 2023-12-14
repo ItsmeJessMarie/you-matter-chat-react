@@ -49,58 +49,6 @@ a:link {
   text-decoration: none;
 }
 
-.logo-header {
-  margin: 5px 0 5px 100px;
-  max-height: 70px;
-}
-
-.navbar-nav .nav-link.active,
-.nav-link:hover {
-  color: var(--branding-color);
-}
-
-.navbar {
-  background-color: var(--secondary-color);
-  margin: 0;
-  padding: 10px 100px 10px 0;
-}
-
-.nav-item {
-  padding: 0 10px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.navbar-collapse {
-  display: flex;
-  justify-content: right;
-  text-align: right;
-}
-
-.dropdown-item.active,
-.dropdown-item:active,
-.dropdown-item.focus,
-.dropdown-item:focus,
-.dropdown-item:hover {
-  background-color: var(--secondary-color);
-  color: var(--branding-color);
-}
-
-.warning {
-  background: #edebeb;
-  margin: 100px 0 0 0;
-}
-
-.warning-text {
-  color: var(--warning-color);
-  display: block;
-  font-size: 14px;
-  margin: 0 auto;
-  padding: 10px;
-  text-align: center;
-  max-width: 800px;
-}
-
 .content-container {
   background-color: var(--secondary-color);
   display: block;
@@ -153,7 +101,7 @@ a:link {
 
 .email-form {
   margin: 0 auto;
-  width: 30%;
+  width: 350px;
 }
 
 .submit-btn {
@@ -315,13 +263,8 @@ a:link {
     font-size: 16px;
   }
 
-  .email-form {
-    width: 50%;
-  }
-
-  .submit-btn,
-  .message-btn {
-    width: 50%;
+  .btn {
+    font-size: 14px;
   }
 
   .contact-us,
@@ -383,17 +326,8 @@ a:link {
     width: 80%;
   }
 
-  .submit-btn,
-  .message-btn {
-    width: 40%;
-  }
-
   .image {
     width: 80%;
-  }
-
-  .btn {
-    font-size: 14px;
   }
 }
 
@@ -428,11 +362,11 @@ a:link {
   }
 
   .email-form {
-    width: 80%;
+    width: 260px;
   }
 
-  .submit-btn {
-    width: 50%;
+  .social-media {
+    font-size: 16px;
   }
 
   .copyright {

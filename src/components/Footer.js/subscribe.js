@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 
-function subscribe() {
+function Subscribe() {
   return (
     <>
       <div>
@@ -11,7 +11,7 @@ function subscribe() {
             <input
               type="email"
               placeholder="Enter your email"
-              autocomplete="off"
+              autoComplete="off"
               id="email-input"
               className="form-control enter-email shadow-sm text-box"
               title="Email input form"
@@ -30,4 +30,4 @@ function subscribe() {
   );
 }
 
-export default subscribe;
+export default Subscribe;

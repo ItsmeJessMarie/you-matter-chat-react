@@ -4,6 +4,7 @@
 }
 
 .navbar-nav .nav-link.active,
+.navbar-nav .nav-link:active,
 .nav-link:hover {
   color: var(--branding-color);
 }
@@ -24,6 +25,11 @@
   display: flex;
   justify-content: right;
   text-align: right;
+}
+
+.navbar-toggler {
+  border-style: none;
+  --bs-navbar-toggler-focus-width: 0;
 }
 
 .dropdown-item.active,
