@@ -1,11 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import logo from "../../images/you-matter-logo.png";
 import "./navbar.css";
 
 function Navbar() {
   return (
     <>
-      <div>
+      <header>
         <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container">
             <a href="/index">
@@ -30,24 +31,24 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a
+                  <NavLink
+                    to="/index"
                     className="nav-link"
                     aria-current="page"
-                    href="/index"
                     title="Homepage"
                   >
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about" title="About us">
+                  <NavLink to="/about" className="nav-link" title="About us">
                     About
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                  <NavLink
+                    to="/volunteer"
                     className="nav-link dropdown-toggle"
-                    href="/crisis"
                     id="navbarDropdownMenuLink"
                     data-bs-toggle="dropdown"
                     aria-haspopup="true"
@@ -55,26 +56,42 @@ function Navbar() {
                     title="Volunteer"
                   >
                     Volunteer
-                  </a>
+                  </NavLink>
                   <div
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <a className="dropdown-item" href="/crisis">
+                    <NavLink
+                      to="/crisis"
+                      className="dropdown-item"
+                      title="Crisis Volunteer page"
+                    >
                       Crisis Volunteer
-                    </a>
-                    <a className="dropdown-item" href="/fundraising">
+                    </NavLink>
+                    <NavLink
+                      to="/fundraising"
+                      className="dropdown-item"
+                      title="Fundraising Volunteer page"
+                    >
                       Fundraising Volunteer
-                    </a>
-                    <a className="dropdown-item" href="/social">
+                    </NavLink>
+                    <NavLink
+                      to="/social"
+                      className="dropdown-item"
+                      title="Social/Digital Media Volunteer page"
+                    >
                       Social/Digital Media Volunteer
-                    </a>
+                    </NavLink>
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/contact" title="Contact us">
+                  <NavLink
+                    to="/contact"
+                    className="nav-link"
+                    title="Contact us"
+                  >
                     Contact
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
                   <a
@@ -99,7 +116,7 @@ function Navbar() {
             helpline or the emergency services in your area.
           </p>
         </div>
-      </div>
+      </header>
     </>
   );
 }
