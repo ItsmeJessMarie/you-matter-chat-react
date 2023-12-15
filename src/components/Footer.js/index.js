@@ -20,6 +20,7 @@ function Footer() {
               <a
                 href="https://www.powr.io/checkout_screen?unique_label=f036cad8_1696581325"
                 target="_blank"
+                rel="noreferrer"
                 className="donation-link"
               >
                 <button

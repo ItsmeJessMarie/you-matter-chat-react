@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import logo from "../../images/you-matter-logo.png";
 import "./navbar.css";
 
 function Navbar() {
-  const [activeLink, setActiveLink] = useState(0);
   return (
     <>
       <div>
@@ -82,6 +81,7 @@ function Navbar() {
                     className="nav-link"
                     href="https://www.powr.io/checkout_screen?unique_label=f036cad8_1696581325"
                     target="_blank"
+                    rel="noreferrer"
                     title="Donate"
                   >
                     Donate
