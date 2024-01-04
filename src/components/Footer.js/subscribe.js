@@ -12,7 +12,7 @@ function Subscribe() {
               type="email"
               placeholder="Enter your email"
               autoComplete="off"
-              id="email-input"
+              id="email"
               className="form-control enter-email shadow-sm text-box"
               title="Email input form"
             />

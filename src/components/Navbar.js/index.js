@@ -53,6 +53,7 @@ function Navbar() {
                     data-bs-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
+                    aria-current="true"
                     title="Volunteer"
                   >
                     Volunteer

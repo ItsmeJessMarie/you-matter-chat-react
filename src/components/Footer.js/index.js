@@ -8,9 +8,9 @@ function Footer() {
       <footer>
         <div className="footer-container">
           <hr />
-          <div className="fourth-container donate-email-container text-center">
+          <div className="fourth-container donate-email-container text-center mt-3">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 mt-3">
                 <p className="mb-2">
                   <a className="homepage-link" href="../../index">
                     YouMatter
@@ -36,12 +36,12 @@ function Footer() {
                   All major forms of payment accepted
                 </p>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 mt-3">
                 <Subscribe />
               </div>
             </div>
           </div>
-          <div className="social-media-icons mt-2">
+          <div className="social-media-icons mt-4">
             <span>
               <a href="">
                 <i className="fa-brands fa-facebook" title="Facebook"></i>
