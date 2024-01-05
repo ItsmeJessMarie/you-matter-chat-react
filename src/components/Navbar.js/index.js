@@ -15,6 +15,9 @@ function Navbar() {
                 className="logo-header img-fluid"
                 alt="You Matter logo"
                 title="Homepage"
+                onClick={() => {
+                  window.location.href = "/";
+                }}
               />
             </NavLink>
             <button
@@ -36,12 +39,22 @@ function Navbar() {
                     className="nav-link"
                     aria-current="page"
                     title="Homepage"
+                    onClick={() => {
+                      window.location.href = "/";
+                    }}
                   >
                     Home
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/about" className="nav-link" title="About us">
+                  <NavLink
+                    to="/about"
+                    className="nav-link"
+                    title="About us"
+                    onClick={() => {
+                      window.location.href = "/about";
+                    }}
+                  >
                     About
                   </NavLink>
                 </li>
@@ -67,6 +80,9 @@ function Navbar() {
                         to="/crisis"
                         className="dropdown-item"
                         title="Crisis Volunteer page"
+                        onClick={() => {
+                          window.location.href = "/crisis";
+                        }}
                       >
                         Crisis Volunteer
                       </NavLink>
@@ -76,6 +92,9 @@ function Navbar() {
                         to="/fundraising"
                         className="dropdown-item"
                         title="Fundraising Volunteer page"
+                        onClick={() => {
+                          window.location.href = "/fundraising";
+                        }}
                       >
                         Fundraising Volunteer
                       </NavLink>
@@ -85,6 +104,9 @@ function Navbar() {
                         to="/social"
                         className="dropdown-item"
                         title="Social/Digital Media Volunteer page"
+                        onClick={() => {
+                          window.location.href = "/social";
+                        }}
                       >
                         Social/Digital Media Volunteer
                       </NavLink>
@@ -96,6 +118,9 @@ function Navbar() {
                     to="/contact"
                     className="nav-link"
                     title="Contact us"
+                    onClick={() => {
+                      window.location.href = "/contact";
+                    }}
                   >
                     Contact
                   </NavLink>
