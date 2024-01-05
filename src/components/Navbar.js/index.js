@@ -9,14 +9,14 @@ function Navbar() {
       <header>
         <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container">
-            <a href="/index">
+            <NavLink to="/index">
               <img
                 src={logo}
                 className="logo-header img-fluid"
                 alt="You Matter logo"
                 title="Homepage"
               />
-            </a>
+            </NavLink>
             <button
               className="navbar-toggler"
               type="button"
@@ -58,32 +58,38 @@ function Navbar() {
                   >
                     Volunteer
                   </NavLink>
-                  <div
+                  <ul
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <NavLink
-                      to="/crisis"
-                      className="dropdown-item"
-                      title="Crisis Volunteer page"
-                    >
-                      Crisis Volunteer
-                    </NavLink>
-                    <NavLink
-                      to="/fundraising"
-                      className="dropdown-item"
-                      title="Fundraising Volunteer page"
-                    >
-                      Fundraising Volunteer
-                    </NavLink>
-                    <NavLink
-                      to="/social"
-                      className="dropdown-item"
-                      title="Social/Digital Media Volunteer page"
-                    >
-                      Social/Digital Media Volunteer
-                    </NavLink>
-                  </div>
+                    <li className="nav-item">
+                      <NavLink
+                        to="/crisis"
+                        className="dropdown-item"
+                        title="Crisis Volunteer page"
+                      >
+                        Crisis Volunteer
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
+                        to="/fundraising"
+                        className="dropdown-item"
+                        title="Fundraising Volunteer page"
+                      >
+                        Fundraising Volunteer
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
+                        to="/social"
+                        className="dropdown-item"
+                        title="Social/Digital Media Volunteer page"
+                      >
+                        Social/Digital Media Volunteer
+                      </NavLink>
+                    </li>
+                  </ul>
                 </li>
                 <li className="nav-item">
                   <NavLink
