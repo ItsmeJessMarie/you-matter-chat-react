@@ -12,7 +12,7 @@ function Footer() {
             <div className="row">
               <div className="col-lg-6 mt-3">
                 <p className="mb-2">
-                  <a className="homepage-link" href="../../index">
+                  <a className="homepage-link" href="../../">
                     YouMatter
                   </a>{" "}
                   is an international non-profit, registered and regulated in

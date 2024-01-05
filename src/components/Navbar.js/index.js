@@ -9,7 +9,7 @@ function Navbar() {
       <header>
         <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container">
-            <NavLink to="/index">
+            <NavLink to="/">
               <img
                 src={logo}
                 className="logo-header img-fluid"
@@ -32,7 +32,7 @@ function Navbar() {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <NavLink
-                    to="/index"
+                    to="/"
                     className="nav-link"
                     aria-current="page"
                     title="Homepage"
