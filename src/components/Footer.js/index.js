@@ -43,16 +43,16 @@ function Footer() {
           </div>
           <div className="social-media-icons mt-4">
             <span>
-              <a href="">
+              <a href="/">
                 <i className="fa-brands fa-facebook" title="Facebook"></i>
               </a>
-              <a href="">
+              <a href="/">
                 <i
                   className="fa-brands fa-x-twitter"
                   title="X (formally known as Twitter)"
                 ></i>
               </a>
-              <a href="">
+              <a href="/">
                 <i className="fa-brands fa-instagram" title="Instagram"></i>
               </a>
             </span>
