@@ -48,11 +48,11 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/about"
+                    to="about"
                     className="nav-link"
                     title="About us"
                     onClick={() => {
-                      window.location.href = "/about";
+                      window.location.href = "about";
                     }}
                   >
                     About
@@ -60,7 +60,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item dropdown">
                   <NavLink
-                    to="/volunteer"
+                    to="volunteer"
                     className="nav-link dropdown-toggle"
                     id="navbarDropdownMenuLink"
                     data-bs-toggle="dropdown"
@@ -77,11 +77,11 @@ function Navbar() {
                   >
                     <li className="nav-item">
                       <NavLink
-                        to="/crisis"
+                        to="crisis"
                         className="dropdown-item"
                         title="Crisis Volunteer page"
                         onClick={() => {
-                          window.location.href = "/crisis";
+                          window.location.href = "crisis";
                         }}
                       >
                         Crisis Volunteer
@@ -89,11 +89,11 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                       <NavLink
-                        to="/fundraising"
+                        to="fundraising"
                         className="dropdown-item"
                         title="Fundraising Volunteer page"
                         onClick={() => {
-                          window.location.href = "/fundraising";
+                          window.location.href = "fundraising";
                         }}
                       >
                         Fundraising Volunteer
@@ -101,11 +101,11 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                       <NavLink
-                        to="/social"
+                        to="social"
                         className="dropdown-item"
                         title="Social/Digital Media Volunteer page"
                         onClick={() => {
-                          window.location.href = "/social";
+                          window.location.href = "social";
                         }}
                       >
                         Social/Digital Media Volunteer
@@ -115,11 +115,11 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/contact"
+                    to="contact"
                     className="nav-link"
                     title="Contact us"
                     onClick={() => {
-                      window.location.href = "/contact";
+                      window.location.href = "contact";
                     }}
                   >
                     Contact
