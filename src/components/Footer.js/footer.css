@@ -1,0 +1,109 @@
+footer p {
+  font-size: 16px;
+}
+
+.footer-container {
+  margin: 30px 0 10px 0;
+}
+
+.footer-container .homepage-link {
+  color: var(--branding-color);
+}
+
+.footer-container .homepage-link:hover {
+  color: var(--hover-color);
+}
+
+.donation-btn {
+  padding: 12px 25px;
+}
+
+.donation-link {
+  display: inline-block;
+}
+
+.mailing-form {
+  text-align: center;
+}
+
+.email-form {
+  display: inline-block;
+  width: 300px;
+}
+
+.enter-email,
+.enter-email.active,
+.enter-email.focus,
+.enter-email:focus,
+.enter-email:active {
+  border-radius: 30px;
+  display: block;
+  font-size: 14px;
+  margin: 8px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-media-icons {
+  text-align: center;
+}
+
+.fa-brands {
+  color: var(--branding-color);
+  font-size: 22px;
+  padding: 0 20px;
+}
+
+.fa-brands:hover {
+  color: var(--hover-color);
+}
+
+.fa-paypal {
+  color: var(--secondary-color);
+  font-size: 18px;
+  padding: 0 4px;
+}
+
+.fa-paypal:hover {
+  color: black;
+}
+
+.credit-cards {
+  font-size: 11px;
+  padding-top: 2px;
+}
+
+.copyright {
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .donate-email-container {
+    padding: 0 30px;
+  }
+
+  .mailing-form {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  footer p {
+    font-size: 14px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .credit-cards {
+    font-size: 10px;
+  }
+
+  .copyright {
+    font-size: 11px;
+  }
+}

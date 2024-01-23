@@ -8,6 +8,7 @@ import Crisis from "./pages/volunteer/crisis";
 import Fundraising from "./pages/volunteer/fundraising";
 import Social from "./pages/volunteer/social";
 import Contact from "./pages/contact";
+import NotFound from "./pages/notFound";
 import "./App.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/fundraising" element={<Fundraising />} />
           <Route path="/social" element={<Social />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} status={404} />
         </Routes>
         <Footer />
       </div>

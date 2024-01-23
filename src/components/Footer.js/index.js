@@ -1,69 +1,67 @@
 import React from "react";
 import Subscribe from "./subscribe.js";
-import "../../App.css";
+import "./footer.css";
 
 function Footer() {
   return (
     <>
-      <footer>
-        <div className="footer-container">
-          <hr />
-          <div className="fourth-container donate-email-container text-center mt-3">
-            <div className="row">
-              <div className="col-lg-6 mt-3">
-                <p className="mb-2">
-                  <a className="homepage-link" href="../../">
-                    YouMatter
-                  </a>{" "}
-                  is an international non-profit, registered and regulated in
-                  New Jersey, USA.
-                </p>
-                <a
-                  href="https://www.powr.io/checkout_screen?unique_label=f036cad8_1696581325"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="donation-link"
+      <div className="footer-container">
+        <hr />
+        <div className="fourth-container donate-email-container text-center mt-3">
+          <div className="row">
+            <div className="col-lg-6 mt-3">
+              <p className="mb-2">
+                <a className="homepage-link" href="../../">
+                  YouMatter
+                </a>{" "}
+                is an international non-profit, registered and regulated in New
+                Jersey, USA.
+              </p>
+              <a
+                href="https://www.powr.io/checkout_screen?unique_label=f036cad8_1696581325"
+                target="_blank"
+                rel="noreferrer"
+                className="donation-link"
+              >
+                <button
+                  className="btn btn-primary donation-btn"
+                  title="Donation button"
                 >
-                  <button
-                    className="btn btn-primary donation-btn"
-                    title="Donation button"
-                  >
-                    <i className="fa-brands fa-paypal"></i>
-                    Donate
-                  </button>
-                </a>
-                <p className="credit-cards">
-                  All major forms of payment accepted
-                </p>
-              </div>
-              <div className="col-lg-6 mt-3">
-                <Subscribe />
-              </div>
+                  <i className="fa-brands fa-paypal"></i>
+                  Donate
+                </button>
+              </a>
+              <p className="credit-cards">
+                All major forms of payment accepted
+              </p>
+            </div>
+            <div className="col-lg-6 mt-3">
+              <Subscribe />
             </div>
           </div>
-          <div className="social-media-icons mt-4">
-            <span>
-              <a href="/">
-                <i className="fa-brands fa-facebook" title="Facebook"></i>
-              </a>
-              <a href="/">
-                <i
-                  className="fa-brands fa-x-twitter"
-                  title="X (formally known as Twitter)"
-                ></i>
-              </a>
-              <a href="/">
-                <i className="fa-brands fa-instagram" title="Instagram"></i>
-              </a>
-            </span>
-          </div>
-          <p className="copyright mt-3">
-            © 2023 by YouMatter. YouMatter is an internet platform used by
-            people to access on-demand emotional support. We are not a clinical
-            service and do not provide medical assistance.
-          </p>
         </div>
-      </footer>
+        <div className="social-media-icons mt-4">
+          <span>
+            <a href="/">
+              <i className="fa-brands fa-facebook" title="Facebook"></i>
+            </a>
+            <a href="/">
+              <i
+                className="fa-brands fa-x-twitter"
+                title="X (formally known as Twitter)"
+              ></i>
+            </a>
+            <a href="/">
+              <i className="fa-brands fa-instagram" title="Instagram"></i>
+            </a>
+          </span>
+        </div>
+        <p className="copyright mt-3">
+          © 2023 by YouMatter. YouMatter is an internet platform used by people
+          to access on-demand emotional support. We are not a clinical service
+          and do not provide medical assistance.
+        </p>
+      </div>
     </>
   );
 }

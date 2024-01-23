@@ -41,10 +41,6 @@ p {
   margin: 0;
 }
 
-footer p {
-  font-size: 16px;
-}
-
 a:link {
   text-decoration: none;
 }
@@ -70,35 +66,10 @@ a:link {
   margin: 30px 0;
 }
 
-.footer-container {
-  margin: 30px 0 10px 0;
-}
-
 .image {
   display: block;
   margin: 15px auto;
   width: 100%;
-}
-
-.footer-container .homepage-link {
-  color: var(--branding-color);
-}
-
-.footer-container .homepage-link:hover {
-  color: var(--hover-color);
-}
-
-.donate-email-container {
-  margin: 0 auto;
-}
-
-.mailing-form {
-  text-align: center;
-}
-
-.email-form {
-  margin: 0 auto;
-  width: 325px;
 }
 
 .submit-btn {
@@ -109,19 +80,6 @@ a:link {
 
 .contact-warning {
   color: var(--warning-color);
-}
-
-.enter-email,
-.enter-email.active,
-.enter-email.focus,
-.enter-email:focus,
-.enter-email:active {
-  border-radius: 30px;
-  display: block;
-  font-size: 14px;
-  margin: 8px auto;
-  padding: 10px;
-  text-align: center;
 }
 
 .text-box:focus {
@@ -148,7 +106,6 @@ a:link {
   background: var(--branding-color);
 }
 
-.donation-btn,
 .apply-btn {
   display: inline;
   padding: 12px 25px;
@@ -157,40 +114,6 @@ a:link {
 .btn-primary:hover {
   background: var(--hover-color);
   color: black;
-}
-
-.social-media-icons {
-  text-align: center;
-}
-
-.fa-brands {
-  color: var(--branding-color);
-  font-size: 22px;
-  padding: 0 20px;
-}
-
-.fa-brands:hover {
-  color: var(--hover-color);
-}
-
-.fa-paypal {
-  color: var(--secondary-color);
-  font-size: 18px;
-  padding: 0 4px;
-}
-
-.fa-paypal:hover {
-  color: black;
-}
-
-.credit-cards {
-  font-size: 11px;
-  padding-top: 2px;
-}
-
-.copyright {
-  font-size: 14px;
-  text-align: center;
 }
 
 .volunteer-requirements p {
@@ -286,14 +209,6 @@ a:link {
     margin: 20px 0 0 0;
   }
 
-  .donate-email-container {
-    padding: 0 30px;
-  }
-
-  .mailing-form {
-    padding: 20px 0;
-  }
-
   .volunteer-requirements,
   .fundraising-information,
   .contact-us-information {
@@ -329,24 +244,8 @@ a:link {
     padding: 0 10px;
   }
 
-  .warning {
-    margin: 110px 0 0 0;
-  }
-
-  .warning-text {
-    font-size: 12px;
-  }
-
   .content-container {
     padding: 10px 20px;
-  }
-
-  .logo-header {
-    margin: 10px 0 10px 20px;
-  }
-
-  .navbar {
-    padding: 10px 20px 10px 0;
   }
 
   .email-form {
@@ -358,7 +257,7 @@ a:link {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   h1 {
     font-size: 24px;
   }
@@ -368,7 +267,7 @@ a:link {
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   h4 {
@@ -376,21 +275,14 @@ a:link {
   }
 
   p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
-  .navbar-collapse {
-    display: flex;
-    justify-content: right;
-    text-align: right;
+  li {
+    font-size: 13px;
   }
 
-  .nav-item,
-  .dropdown-item {
-    font-size: 12px;
-  }
-
-  .email-form {
-    width: 100%;
+  .content-container {
+    padding: 10px 15px;
   }
 }
