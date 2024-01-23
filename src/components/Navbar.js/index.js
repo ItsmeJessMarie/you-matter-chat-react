@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-md fixed-top">
         <div className="container">
-          <NavLink to="/">
+          <NavLink to="/" reloadDocument>
             <img
               src={logo}
               className="logo-header img-fluid"
@@ -31,6 +31,7 @@ function Navbar() {
               <li className="nav-item">
                 <NavLink
                   to="/"
+                  reloadDocument
                   className="nav-link"
                   aria-current="page"
                   title="Homepage"
@@ -39,12 +40,17 @@ function Navbar() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/about" className="nav-link" title="About us">
+                <NavLink
+                  to="/about"
+                  reloadDocument
+                  className="nav-link"
+                  title="About us"
+                >
                   About
                 </NavLink>
               </li>
-              <div className="dropdown active dropdown">
-                <li className="nav-item dropdown">
+              <div className="dropdown active">
+                <li className="nav-item dropdown-nav-items">
                   <NavLink
                     to="/volunteer"
                     className="nav-link dropdown-toggle"
@@ -64,6 +70,7 @@ function Navbar() {
                     <li className="nav-item">
                       <NavLink
                         to="/crisis"
+                        reloadDocument
                         className="dropdown-item"
                         title="Crisis Volunteer page"
                       >
@@ -73,6 +80,7 @@ function Navbar() {
                     <li className="nav-item">
                       <NavLink
                         to="/fundraising"
+                        reloadDocument
                         className="dropdown-item"
                         title="Fundraising Volunteer page"
                       >
@@ -81,7 +89,9 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                       <NavLink
+                        end
                         to="/social"
+                        reloadDocument
                         className="dropdown-item"
                         title="Social/Digital Media Volunteer page"
                       >
@@ -92,7 +102,12 @@ function Navbar() {
                 </li>
               </div>
               <li className="nav-item">
-                <NavLink to="/contact" className="nav-link" title="Contact us">
+                <NavLink
+                  to="/contact"
+                  reloadDocument
+                  className="nav-link"
+                  title="Contact us"
+                >
                   Contact
                 </NavLink>
               </li>
